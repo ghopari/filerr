@@ -1,0 +1,14 @@
+# Tools Scan Proxy Universitas #
+Langkah utk install:
+1. Pastikan sudah menginstall aplikasi termux di playstore
+2. Jalankan perintah dibawah baris per baris
+		pkg install git
+		pkg install bash
+		pkg install jq
+		pkg install curl
+		pkg install dnsutils
+		pkg install nmap
+		git clone https://github.com/coziboy/scan-proxy-univ.git
+		cd scan-proxy-univ
+3. Kemudian jalankan perintah:
+bash scan.sh
